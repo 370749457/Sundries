@@ -4,7 +4,6 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.util.Date;
 
 @Data
 @NoArgsConstructor
@@ -21,7 +20,6 @@ public class WitnessFuture {
 
         academy.changeState();
 
-     // Make sure both of team have the same number of members.
 
         System.out.println("It is a special time,they find the answer and they are "+ academy.getState());
     }

@@ -92,7 +92,7 @@ public class DomainTest {
             assertEquals("There are no people to delete", e.getMessage());
         }
 
-         @Test
+        @Test
         @DisplayName("Check addMember function")
         void checkAddMemberToNullArrayList() throws Exception {
              SciencesAcademy academy_test;

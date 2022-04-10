@@ -18,7 +18,7 @@ public class Function {
     }
 
 
-    public double nth(double x, int n)// 3th  = a*a*a
+    public double nth(double x, int n)// 3th  means a*a*a
     {
         if (n > 0) {
             return x * nth(x, n - 1);
